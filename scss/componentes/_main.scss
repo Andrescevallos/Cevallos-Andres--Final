@@ -1,0 +1,16 @@
+main{
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+@media screen and (max-width: 480px){
+    main{
+        width: 100%;
+        flex-wrap: wrap ;
+    }
+
+    
+
+}

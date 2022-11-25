@@ -1,0 +1,112 @@
+header{
+    background-image: url(../../img/fondo/head3.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 50px;
+
+
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.titpri{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.esc-head{
+    width: 8%;
+    height: 8%;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.escudo{
+    width: 140px;
+    height: 100px;
+    padding: 25px 25px 0 25px
+}
+
+header div nav div ul li{
+    border: 5px solid rgb(37, 176, 222);
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    background-color: azure;
+    margin: 15px;
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: rgb(255, 255, 255) solid 2px;
+    background: transparent;
+    flex-wrap: wrap;
+    
+}
+
+
+.boots{
+    padding-top: 50px;
+    
+}
+
+
+a:hover{
+    color: black;
+}
+
+.div1{
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        width: 100%;
+    }
+    h1{
+        font-size: 2px;
+        text-align: center;
+    }
+
+    .escudo{
+        display: none;
+    }
+
+
+    .head2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    button{
+        width: 100px;
+    }
+    .boots{
+        width: 80%;
+    }
+
+    }
+
+    
